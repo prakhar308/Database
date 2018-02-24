@@ -54,6 +54,7 @@ public class SQL extends AppCompatActivity {
                 }
 
                 s=sp.getString("sp1",s);
+                Log.e("SHARED",s);
 
             }
         });
